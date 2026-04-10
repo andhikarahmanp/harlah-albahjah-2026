@@ -214,7 +214,11 @@
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 0 24px;
+  padding: 130px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-badge {
@@ -257,10 +261,10 @@
   font-family: var(--font-body);
   font-size: clamp(1rem, 2vw, 1.15rem);
   color: rgba(255, 255, 255, 0.78);
-  max-width: 540px;
+  max-width: 600px;
   margin-bottom: 2.5rem;
   line-height: 1.8;
-  animation: fadeInUp 0.9s 0.3s ease both;
+  text-align: center;
 }
 
 /* Countdown */
