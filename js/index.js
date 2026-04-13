@@ -103,7 +103,7 @@ $(function () {
      COUNTDOWN TIMER
      Target: 1 June 2026, 00:00:00
      ============================================================ */
-  const targetDate = new Date('2026-06-01T00:00:00');
+  const targetDate = new Date('2026-06-25T00:00:00');
 
   function updateCountdown() {
     const now = new Date();
